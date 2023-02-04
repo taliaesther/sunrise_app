@@ -36,7 +36,6 @@ To run the tests, __close__ the validator in the first shell and run
 yarn test
 ```
 
-
 ## How it works
 
 Note, for more details, visit the [docs](https://docs.sunrisestake.com).

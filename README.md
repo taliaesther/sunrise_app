@@ -2,7 +2,6 @@
 
 What is Sunrise Stake?
 
-
 Sunrise Stake is a ReFi staking protocol that directs staking yield to climate-positive projects.
 
 At Sunrise Stake we believe in the power of Regenerative Finance to create positive outcomes
@@ -17,6 +16,7 @@ while simultaneously strengthening the Solana blockchain.
 For more details, visit the [docs](https://docs.sunrisestake.com).
 
 ![stake.gif](/doc/stake.gif)
+
 
 ## Quick Start
 
@@ -36,11 +36,12 @@ To run the tests, __close__ the validator in the first shell and run
 yarn test
 ```
 
+
 ## How it works
 
 Note, for more details, visit the [docs](https://docs.sunrisestake.com).
 
-#### Step 1: Depositing SOL with Sunrise Stake
+### Step 1: Depositing SOL with Sunrise Stake
 
 ![staking_white_without_comments.png](/doc/staking_white_without_comments.png)
 
@@ -58,7 +59,7 @@ This pool is used during the unstaking process to provide fee-less unstaking, en
 When you deposit your SOL, you will receive an equivalent amount of gSOL in your wallet.
 gSOL can be used in the same way as SOL, by protocols or recipients that support it.
 
-#### Step 2: Accruing yield
+### Step 2: Accruing yield
 
 ![accruing_yield_white.png](/doc/accruing_yield_white.png)
 
@@ -126,6 +127,7 @@ The Sunrise [treasury controller](https://github.com/sunrise-stake/treasury-cont
 
 _NOTE_:
 Until sufficient liquidity is present on Solana for NCT, Sunrise is maintaining a reserve of bridged NCT, and is automatically burning from this pot at a fixed price.
+
 
 ## Deployed Addresses:
 
